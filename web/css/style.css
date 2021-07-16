@@ -1,0 +1,216 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 11, 2021, 8:59:19 PM
+    Author     : DELL
+*/
+
+.resulttotal{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:886px;
+    height:auto;
+    margin-left:auto;
+    margin-right: auto;
+}
+.pre_header{
+    width:886px;
+    height:71px;
+    background-image: url(../images/preheader.jpg);
+}
+.header{
+    width:886px;
+    height:78px;
+    background-image: url(../images/header.jpg);
+}
+.footer{
+    width:886px;
+    height:78px;
+    background-image: url(../images/footer.jpg);
+}
+.header_title{
+    margin-left:80px;
+    color:white;
+    font-size: 20px;
+}
+.menu{
+    width:886px;
+    height:32px;
+    background-image: url(../images/menu.jpg);
+}
+.menu a{
+    line-height: 32px;
+    text-decoration: none;
+    color:white;
+    margin-left:80px;
+}
+.main{
+    display: flex;
+    width: 886px;
+    height: auto;
+    background-image: url(../images/bg.jpg);
+}
+.left{
+    width: 600px;
+    height: auto;
+    border-right: 1px dotted black;
+}
+.right{
+    width: 236px;
+    height: auto;
+}
+.image img{
+    width: 500px;
+    height:300px;
+    margin-left:80px;
+}
+.title a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-weight: bold;
+}
+.title{
+    color:black;
+    font-size:18px;
+    margin-left:80px;
+    margin-top:20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+.left .title a{
+    color:black;
+    font-size:18px;
+    text-decoration: none;
+}
+.des{
+    margin-left:80px;
+    margin-right: 20px;
+    margin-top:10px;
+    padding-bottom: 50px;
+    border-bottom: 1px dotted gray;
+}
+.author{
+    float:right;
+    margin-right: 5px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.shortDes{
+    margin-left:20px;
+    margin-top:10px;
+    padding-right:30px;
+}
+.right .title{
+    margin-left:20px;
+}
+form{
+    margin-top:10px;
+    display:flex;
+
+}
+form input{
+    width: 60%;
+    border:1px dotted gray;
+    margin-left:20px;
+}
+button{
+    background-color: white;
+    border:none;
+    font-weight: bold;
+}
+.lastArticle {
+    display:inline-block;
+    margin-top:10px;
+    font-size:14px;
+    margin-left:20px;
+    margin-right: 20px;
+    color: gray;
+}
+.per_article{
+    width: 85%;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted gray;
+    margin-left: 81px;
+}
+.per_article img{
+    width: 60%;
+}
+.per_article .title{
+    margin-left: 0px;
+}
+.paging{
+    text-align: center;
+    margin-top:5px;
+}
+.paging a{
+    text-decoration: none;
+    padding: 2px;
+    background-color: gray;
+    color: white;
+    border-radius: 3px;
+}
+.paging .active {
+    pointer-events: none;
+    color: black;
+    background-color: white;
+}
+.left .notice {
+    margin-top:10px;
+    margin-left:80px;
+    font-weight: bold;
+}
+.title .searchWord{
+    background-color: yellow;
+}
+
+
+@media only screen and (max-width: 600px){
+    .main{
+        width: 100%;
+        display: block;
+        margin-top:-20px;
+        padding-top:10px;
+    }
+    .right{
+        width: 100%;
+        padding-left: 55px;
+        margin-right:79px;
+    }
+    .right .shortDes{
+        padding-right: 140px;
+    }
+    form input{
+        width: 20%;
+    }
+    .left{
+        width: 100%;
+    }
+    .left .des{
+        margin-right:79px;
+    }
+    .left .title{
+        font-size: 19px;
+    }
+    .left .author{
+        width:100%;
+    }
+    .author .forFloat{
+        float:right;
+        margin-right: 79px;
+    }
+    .menu{
+        height: 52px;
+    }
+}
